@@ -1,12 +1,19 @@
 # The gentoo penguins and their breeding patterns.  
 ## Goal 
-    The goal of this project was to show whether gentoo penguins are breeding at a higher rate or not using data from https://www.penguinmap.com/. 
+The goal of this project was to show whether gentoo penguins are breeding at a higher rate or not using data from https://www.penguinmap.com/. 
 
 ## My findings
-    I learned that gentoo penguins overall are increasing in population throughout various colonies. I also learned that researchers can measure successful breeding, by dividing the number of penguin chicks to the number of nests (instances of breeding). I incorpated this chick-nest ratio in one of my graphs. 
+ I learned that gentoo penguins overall are increasing in population throughout various colonies. I also learned that researchers can measure successful breeding, by dividing the number of penguin chicks to the number of nests (instances of breeding). I incorpated this chick-nest ratio in one of my graphs. 
 
 ## Data collection process
-I collected data from Oceanites.org who run a penguin map. The data was thankfully already in a csv format. I used pandas to clean the data and specifically look into where gentoo penguins and chinstrap penguins were located. Many research articles compared gentoo penguins to chinstrap penguins given that they share common habits and are part of the same penguin family. So, I also used pandas to see where chinstrap were located and how their overall breeding rates and population were doing in comaprsion to gentoo penguins. 
+I collected data from Oceanites.org who run a penguin map. The data was thankfully already in a csv format. I used pandas to clean the data and specifically look into where gentoo penguins and chinstrap penguins were located. Many research articles compared gentoo penguins to chinstrap penguins given that they share common habits and are part of the same penguin family. So, I also used pandas to see where chinstrap were located and how their overall breeding rates and population were doing in comaprsion to gentoo penguins. I additionally read several scholarly articles to see if the data I was filtering on pandas matched what I was reading. The good news was that it did. Here are a few articles that I read:
+
+1. https://www.nature.com/articles/s41598-020-76479-3
+
+2. https://journals.biologists.com/jeb/article/227/11/jeb248062/352633?
+casa_token=c7Jsg049feAAAAAA:AobSoKvDc2t9yn8CZfzrq30IFJtUkGz_lS6r835an4NsvKPKerSPz7YwW1_QHkVksER7
+
+3. https://www.msn.com/en-us/science/ecology/surging-population-of-gentoo-penguins-over-other-species-in-antarctica-is-not-a-good-sign-scientists-warn/ar-AA1wayHl?ocid=BingNewsVerp
 
 ## Data analysis process
 I did speak to Dr. Grant Humphries via email to first understand what sites to focus on when analyzing gentoo penguins. Humphries also provided background information on the gentoo penguins, including how they are adaptive to the changing climate. I used bar charts to analyze the data because I was looking, across time, how the breeding and overall population of the two penguins were. Initially I had done line graphs, but I avoided using this approach given we cannot assume correlation. Also, some years had missing data so a line graph would not be the best approach. 
